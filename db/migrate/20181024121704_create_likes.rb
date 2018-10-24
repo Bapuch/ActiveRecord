@@ -1,3 +1,4 @@
+# Migration to create the like table
 class CreateLikes < ActiveRecord::Migration[5.2]
   def change
     create_table :likes do |t|

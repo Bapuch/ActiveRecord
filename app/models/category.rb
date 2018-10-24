@@ -1,3 +1,5 @@
+# This class is linked to the categories table
 class Category < ApplicationRecord
-    has_many :articles
+  # 1 Category - N artciles
+  has_many :articles
 end
